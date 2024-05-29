@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.chart-container {
+  height: 300px;
+  width: 900px;
+  background-color: black;
+  padding: 20px;
+  border-left: 1px solid #2e2e2e;
+  border-right: 1px solid #2e2e2e;
+}
+
+.d-section {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 15px 25px 10px 10px;
+  justify-content: end;
+  border-radius: 5px 5px 0 0;
+  border-left: 1px solid #2e2e2e;
+  border-top: 1px solid #2e2e2e;
+  border-right: 1px solid #2e2e2e;
+}
+
+.d-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #80858d;
+}
+
+.active-d {
+  background: #212426;
+}
+
+.d {
+  border-radius: 4px;
+  padding: 3px 10px 3px 10px;
+}
+
+.data-section {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  gap: 45px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #2e2e2e;
+}
+
+.labels {
+  display: flex;
+}
+
+.data-section .label {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  color: #7a7a7a;
+}
+
+.data-section .label span {
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  margin-right: 5px;
+  background-color: currentColor;
+  border-radius: 3px;
+}
+
+.data-section .label.run1 span {
+  background-color: #00e0d0;
+}
+
+.data-section .label.run2 span {
+  background-color: #ff006e;
+}
